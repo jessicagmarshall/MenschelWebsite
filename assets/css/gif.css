@@ -1,6 +1,13 @@
-.jumbotron {
+.jumbotron-desktop {
   background-color: #ffffff;
-  width: 100%;
-  height: 500px;
   margin-bottom: 60px;
+}
+
+.jumbotron-mobile {
+  background-color: #ffffff;
+  margin-bottom: 60px;
+
+  max-width: 100%;
+  /* Set up proportionate scaling */
+  overflow-x: hidden;
 }
