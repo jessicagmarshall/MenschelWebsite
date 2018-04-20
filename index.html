@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
     <title>seized</title>
 
@@ -20,18 +20,18 @@
   </head>
 
   <body>
-    <div>
+    <div class="yellowborder hidden-xs">
 
       <!--Desktop GIF
       ================================================== -->
       <div class="jumbotron-desktop hidden-xs">
-        <img class="center-block" src="./assets/img/seized_domain.jpg">
+        <img id="desktopGif" class="center-block" src="./assets/img/seized_domain.jpg">
       </div>
 
       <!--Mobile GIF
       ================================================== -->
-      <div class="hidden-sm hidden-md hidden-lg col-xs">
-        <img class="jumbotron-mobile col-xs" src="./assets/img/seized_domain.jpg">
+      <div class="hidden-sm hidden-md hidden-lg">
+        <img id="mobileGif" class="jumbotron-mobile col-xs" src="./assets/img/seized_domain.jpg">
       </div>
 
       <!-- /.gif -->
@@ -40,11 +40,11 @@
       ================================================== -->
       <div id="myCarouselDesktop" class="carousel carousel-desktop center-block slide hidden-xs" data-ride="carousel">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <!-- <ol class="carousel-indicators">
           <li data-target="#myCarouselDesktop" data-slide-to="0" class="active"></li>
           <li data-target="#myCarouselDesktop" data-slide-to="1"></li>
           <li data-target="#myCarouselDesktop" data-slide-to="2"></li>
-        </ol>
+        </ol> -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <img class="first-slide center-block" src="./assets/img/seized_domain.jpg" alt="First slide">
@@ -85,11 +85,11 @@
       ================================================== -->
       <div id="myCarouselMobile" class="carousel carousel-mobile slide hidden-sm hidden-md hidden-lg" data-ride="carousel">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <!-- <ol class="carousel-indicators">
           <li data-target="#myCarouselMobile" data-slide-to="0" class="active"></li>
           <li data-target="#myCarouselMobile" data-slide-to="1"></li>
           <li data-target="#myCarouselMobile" data-slide-to="2"></li>
-        </ol>
+        </ol> -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <img class="first-slide center-block" src="./assets/img/seized_domain.jpg" alt="First slide">
@@ -125,6 +125,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div><!-- /.carousel -->
+      <div class="new-caption-area"></div>
 
 
         <!-- FOOTER -->
@@ -145,5 +146,6 @@
   <script src="assets/js/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/gif.js"></script>
   </body>
 </html>

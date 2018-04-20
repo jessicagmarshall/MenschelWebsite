@@ -1,4 +1,5 @@
 .jumbotron-desktop {
+  max-width: 100%;
   background-color: #ffffff;
   margin-bottom: 60px;
 }
