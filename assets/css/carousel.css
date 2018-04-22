@@ -2,7 +2,13 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+@font-face {
+    font-family: Hasklig;
+    src: url(../fonts/Hasklig-Regular.otf);
+}
+
 body {
+  font-family: Hasklig;
   padding-bottom: 0px;
 }
 
