@@ -24,21 +24,12 @@ html, body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
-}
-
 .carousel-desktop {
   max-width: 100%;
 }
 
 .carousel-mobile {
   max-width: 100%;
-}
-
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 1;
 }
 
 .new-caption-area {

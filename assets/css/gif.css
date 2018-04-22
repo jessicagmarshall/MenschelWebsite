@@ -2,15 +2,12 @@
   background-color: #ffffff;
   margin-bottom: 60px;
   background-size: contain;
-
   max-width: 100%;
 }
 
 .jumbotron-mobile {
   background-color: #ffffff;
   margin-bottom: 60px;
-
   max-width: 100%;
-  /* Set up proportionate scaling */
   overflow-x: hidden;
 }
