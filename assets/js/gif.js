@@ -1,3 +1,5 @@
+/* global jQuery */
+
 document.addEventListener('DOMContentLoaded', function (event) {
   startTimer()
 
@@ -18,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 function changeImage () {
   let srcVal = document.getElementById('desktopGif').src
   let name = srcVal.substr(srcVal.length - 7)
-  console.log(name)
+  // console.log(name)
   if (name !== 'ain.jpg') {
     document.getElementById('desktopGif').src = './assets/img/seized_domain.jpg'
   } else {
@@ -27,7 +29,7 @@ function changeImage () {
 
   let srcValMobile = document.getElementById('mobileGif').src
   let nameMobile = srcValMobile.substr(srcVal.length - 7)
-  console.log(nameMobile)
+  // console.log(nameMobile)
   if (name !== 'ain.jpg') {
     document.getElementById('mobileGif').src = './assets/img/seized_domain.jpg'
   } else {
