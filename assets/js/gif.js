@@ -30,7 +30,7 @@ function changeImage () {
   let srcValMobile = document.getElementById('mobileGif').src
   let nameMobile = srcValMobile.substr(srcVal.length - 7)
   // console.log(nameMobile)
-  if (name !== 'ain.jpg') {
+  if (nameMobile !== 'ain.jpg') {
     document.getElementById('mobileGif').src = './assets/img/seized_domain.jpg'
   } else {
     document.getElementById('mobileGif').src = './assets/img/cat.jpg'

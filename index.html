@@ -20,25 +20,17 @@
   </head>
 
   <body>
-    <div class="yellowborder hidden-xs">
+    <div class="hidden-xs">
 
       <!--Desktop GIF
       ================================================== -->
-      <div class="jumbotron-desktop hidden-xs">
+      <div class="jumbotron-desktop">
         <img id="desktopGif" class="center-block" src="./assets/img/seized_domain.jpg">
       </div>
 
-      <!--Mobile GIF
-      ================================================== -->
-      <div class="hidden-sm hidden-md hidden-lg">
-        <img id="mobileGif" class="jumbotron-mobile col-xs" src="./assets/img/seized_domain.jpg">
-      </div>
-
-      <!-- /.gif -->
-
       <!-- Desktop Carousel
       ================================================== -->
-      <div id="myCarouselDesktop" class="carousel carousel-desktop center-block slide hidden-xs" data-ride="carousel">
+      <div id="myCarouselDesktop" class="carousel carousel-desktop center-block slide" data-ride="carousel">
         <!-- Indicators -->
         <!-- <ol class="carousel-indicators">
           <li data-target="#myCarouselDesktop" data-slide-to="0" class="active"></li>
@@ -81,10 +73,21 @@
         </a>
       </div><!-- /.carousel -->
       <div class="new-caption-area hidden-xs"></div>
+    </div>
+
+    <div class="hidden-sm hidden-mg hidden-lg">
+
+      <!--Mobile GIF
+      ================================================== -->
+      <div>
+        <img id="mobileGif" class="jumbotron-mobile col-xs" src="./assets/img/seized_domain.jpg">
+      </div>
+
+      <!-- /.gif -->
 
       <!-- Mobile Carousel
       ================================================== -->
-      <div id="myCarouselMobile" class="carousel carousel-mobile slide hidden-sm hidden-md hidden-lg" data-ride="carousel">
+      <div id="myCarouselMobile" class="carousel carousel-mobile slide" data-ride="carousel">
         <!-- Indicators -->
         <!-- <ol class="carousel-indicators">
           <li data-target="#myCarouselMobile" data-slide-to="0" class="active"></li>
@@ -127,25 +130,22 @@
         </a>
       </div><!-- /.carousel -->
       <div class="new-caption-area hidden-sm hidden-md hidden-lg"></div>
-
-
-        <!-- FOOTER -->
-        <footer>
-          <!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
-          <p class="copyright">&copy; Sarah Phillips & Yonatan Katzelnik
-            <!-- &middot; -->
-            <!-- <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
-          </p>
-        </footer>
-
     </div><!-- /.container -->
 
+    <!-- FOOTER -->
+    <footer>
+      <!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
+      <p class="copyright pull-right">&copy; Sarah Phillips & Yonatan Katzelnik
+        <!-- &middot; -->
+        <!-- <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
+      </p>
+    </footer>
 
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
-  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
   <script src="assets/js/gif.js"></script>
   </body>
 </html>
