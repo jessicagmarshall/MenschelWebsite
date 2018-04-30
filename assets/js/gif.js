@@ -32,8 +32,8 @@ function changeImage () {
   let srcValMobile = document.getElementById('mobileGif').src
   let nameMobile = srcValMobile.substr(srcVal.length - 7)
   // console.log(nameMobile)
-  if (nameMobile !== 'ors.png') {
-    document.getElementById('mobileGif').src = './assets/img/guifiscissors.png'
+  if (nameMobile !== 'zed.jpg') {
+    document.getElementById('mobileGif').src = './assets/img/resized.jpg'
   } else {
     document.getElementById('mobileGif').src = './assets/img/guifi_net-png.jpg'
   }
