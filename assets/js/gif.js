@@ -23,8 +23,8 @@ function changeImage () {
   let srcVal = document.getElementById('desktopGif').src
   let name = srcVal.substr(srcVal.length - 7)
   // console.log(name)
-  if (name !== 'ors.png') {
-    document.getElementById('desktopGif').src = './assets/img/guifiscissors.png'
+  if (name !== 'zed.jpg') {
+    document.getElementById('desktopGif').src = './assets/img/resized.jpg'
   } else {
     document.getElementById('desktopGif').src = './assets/img/guifi_net-png.jpg'
   }
