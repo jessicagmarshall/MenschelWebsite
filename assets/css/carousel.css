@@ -42,7 +42,6 @@ html, body {
 .item, .first-slide, .second-slide, .third-slide, .fourth-slide, .fifth-slide, .sixth-slide, .seventh-slide, .eighth-slide, .ninth-slide {
   width: 416px;
   height: 243px;
-  max-height: auto; */
 }
 
 .carousel-mobile {
