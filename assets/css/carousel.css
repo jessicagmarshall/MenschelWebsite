@@ -35,7 +35,7 @@ html, body {
 }
 
 .item, .first-slide, .second-slide, .third-slide, .fourth-slide, .fifth-slide, .sixth-slide, .seventh-slide, .eighth-slide, .ninth-slide {
-  max-width: 416px;
+  width: 416px;
   /* height: 243px; */
 }
 
