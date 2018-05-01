@@ -27,23 +27,36 @@ html, body {
   margin-right: 0.5vmin;
 }
 
+.cc {
+  margin-right: 0.5vmin
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 .carousel-desktop {
   width: 100%;
+  /* padding-bottom: 58.4%; */
 }
 
-.item, .first-slide , .second-slide, .third-slide, .fourth-slide, .fifth-slide, .sixth-slide, .seventh-slide, .eighth-slide, .ninth-slide {
+.item, .first-slide, .second-slide, .third-slide, .fourth-slide, .fifth-slide, .sixth-slide, .seventh-slide, .eighth-slide, .ninth-slide {
   width: 416px;
   height: 243px;
-  /* max-height: auto; */
+  max-height: auto; */
 }
 
 .carousel-mobile {
-  max-width: 100%;
+  max-width: 1000%;
 }
 
 .new-caption-area {
   margin-bottom: 2px;
+}
+
+.visible-xs {
+  padding-bottom: 20px;
+}
+
+.hidden-xs {
+  padding-bottom: 20px;
 }
