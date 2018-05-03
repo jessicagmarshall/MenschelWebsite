@@ -34,7 +34,7 @@ html, body {
   width: 100%;
 }
 
-.item, .first-slide, .second-slide, .third-slide, .fourth-slide, .fifth-slide, .sixth-slide, .seventh-slide, .eighth-slide, .ninth-slide {
+.item-desktop, .first-slide, .second-slide, .third-slide, .fourth-slide, .fifth-slide, .sixth-slide, .seventh-slide, .eighth-slide, .ninth-slide {
   width: 416px;
   /* height: 243px; */
 }
